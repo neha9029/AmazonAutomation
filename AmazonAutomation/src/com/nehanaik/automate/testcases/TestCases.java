@@ -2,25 +2,23 @@ package com.nehanaik.automate.testcases;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-
+import com.nehanaik.actionsclass.MouseHover;
 import com.nehanaik.automate.pages.HomePage;
 
 public class TestCases {
 
-	 WebDriver driver;
-	 String webSiteUrl;
-	public static void main(String args[]) {
+	public WebDriver driver;
+	public String webSiteUrl;
+	public static void main(String args[]) throws Exception {
 
 	
 		new TestCases();
 
-	
-		
 	}
 	
 	
 
-	public TestCases() {
+	public TestCases() throws Exception {
 		
 		try {
 			setUp();
@@ -41,10 +39,16 @@ public class TestCases {
 		
 	}
 	
-	public void test() {
+	public void test() throws Exception {
 		driver.get(webSiteUrl);
 		driver.manage().window().maximize();
 
-		HomePage.enterSearcText(driver, "Alexa");
+		MouseHover.testMouseHover(driver);
+
+		HomePage.enterSearchText(driver, "Alexa");
+		HomePage.clickOnSearchButton(driver);
+		
 	}
+	
+
 }

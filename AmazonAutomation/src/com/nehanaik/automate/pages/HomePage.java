@@ -14,15 +14,15 @@ public class HomePage {
 		
 	}
 	
-	public static void enterSearcText(WebDriver driver, String searchText) {
+	public static void enterSearchText(WebDriver driver, String searchText) {
 		element = searchBar(driver);
 		element.sendKeys(searchText);
 	}
 	
 	public static WebElement searchButton(WebDriver driver) {
-		element = driver.findElement(By.id("input.nav-input"));
+		element = driver.findElement(By.xpath("//div[@class='nav-search-submit nav-sprite']//input[contains(@type,'submit')]"));
 		return element;
-	}
+		}
 	
 	public static void clickOnSearchButton(WebDriver driver) {
 		element = searchButton(driver);
