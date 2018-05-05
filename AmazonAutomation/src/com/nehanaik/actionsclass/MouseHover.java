@@ -10,16 +10,17 @@ import com.nehanaik.automate.testcases.TestCases;
 
 public class MouseHover {
 	
-	public static void testMouseHover(WebDriver driver) throws Exception {
+	public static WebElement mainElement = null;
+	public static void testMouseHoverLanguage(WebDriver driver) throws Exception {
 		
 		try {
-			WebElement mainElement = driver.findElement(By.xpath("//a[@class=\"nav-a nav-a-2 icp-link-style-2\"]"));
-			testLearnMore(driver, mainElement);
+			 mainElement = driver.findElement(By.xpath("//a[@class=\"nav-a nav-a-2 icp-link-style-2\"]"));
 			Thread.sleep(4000);
 
 		}
 		catch(org.openqa.selenium.StaleElementReferenceException ex)
-{			WebElement mainElement = driver.findElement(By.xpath("//a[@class=\"nav-a nav-a-2 icp-link-style-2 \"]"));
+        {			
+			mainElement = driver.findElement(By.xpath("//a[@class=\"nav-a nav-a-2 icp-link-style-2 \"]"));
 
 
 		}
@@ -39,7 +40,7 @@ public class MouseHover {
 	} 
 
 	
-	public static void testEspanol(WebDriver driver,WebElement mainElement) {
+	public static void testEnglish(WebDriver driver,WebElement mainElement) {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(mainElement).perform();
 		try {
@@ -55,6 +56,8 @@ public class MouseHover {
 
 	}
 	
+	
+	
 	public static void testLearnMore(WebDriver driver,WebElement mainElement) {
 		Actions actions = new Actions(driver);
 		actions.moveToElement(mainElement).perform();
@@ -68,7 +71,7 @@ public class MouseHover {
 		WebElement learnMore = driver.findElement(By.xpath("//div[@class='nav-template nav-flyout-content nav-tpl-itemList']//span[@class='nav-text']//div[@class='icp-helplink']"));
 		learnMore.click();
 		
-		testEspanol(driver, mainElement);
+		//testEspanol(driver, mainElement);
 
 	}
 
