@@ -11,6 +11,8 @@ import com.nehanaik.automate.testcases.TestCases;
 public class MouseHover {
 	
 	public static WebElement mainElement = null;
+	
+	public static WebElement signInMouseHover = null;
 	public static void testMouseHoverLanguage(WebDriver driver) throws Exception {
 		
 		try {
@@ -24,13 +26,6 @@ public class MouseHover {
 
 
 		}
-
-		
-	
-		
-		
-		
-		
 	   /* Actions newAction = new Actions(driver);
 		newAction.moveToElement(mainElement).perform();
 		Thread.sleep(2000);
@@ -38,6 +33,7 @@ public class MouseHover {
 		WebElement learnMore = driver.findElement(By.xpath("//div[@class='nav-template nav-flyout-content nav-tpl-itemList']//span[@class='nav-text']//div[@class='icp-helplink']"));
 		learnMore.click();   */
 	} 
+
 
 	
 	public static void testEnglish(WebDriver driver,WebElement mainElement) {
@@ -73,6 +69,31 @@ public class MouseHover {
 		
 		//testEspanol(driver, mainElement);
 
+	}
+	
+	
+	public static void testMouseHoverSignIn(WebDriver driver) throws Exception{
+		try {
+			signInMouseHover = driver.findElement(By.xpath("//a[@class='nav-a nav-a-2']"));
+		}
+		catch(org.openqa.selenium.StaleElementReferenceException ex) {
+			signInMouseHover = driver.findElement(By.xpath("//a[@class='nav-a nav-a-2']"));
+			
+		}
+	}
+	
+	public static void testSignIn(WebDriver driver, WebElement signInMouseHover) {
+		Actions actions = new Actions(driver);
+		actions.moveToElement(signInMouseHover).perform();
+		try {
+			Thread.sleep(4000);
+		}
+		catch(InterruptedException e) {
+			e.printStackTrace();
+		}
+		
+		WebElement signInButton = driver.findElement(By.xpath("//div[@id=\"nav-flyout-ya-signin\"]//a[@class='nav-action-button']//span[@class='nav-action-inner']"));
+		signInButton.click();
 	}
 
 }
