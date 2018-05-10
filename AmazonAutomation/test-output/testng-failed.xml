@@ -5,6 +5,7 @@
     <classes>
       <class name="com.nehanaik.automate.testcases.TestNGTestCases">
         <methods>
+          <include name="testMethod"/>
           <include name="closeWindow"/>
           <include name="testLoginUsingExcel" invocation-numbers="0 1 2 3"/>
           <include name="setUp"/>

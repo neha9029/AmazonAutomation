@@ -2,9 +2,7 @@ package com.nehanaik.actionsclass;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
 
-import static com.nehanaik.actionsclass.ScrollElementIntoView.nextPage;
 import static com.nehanaik.automate.testcases.TestNGTestCases.driver;
 
 //import org.openqa.selenium.WebDriver;

@@ -1,0 +1,13 @@
+10:01:47.802 INFO  TestNGTestCases -Launching Amazon.com using javascript Executor Interface
+10:01:48.254 INFO  TestNGTestCases -Maximize window
+10:01:52.762 INFO  TestNGTestCases -Mouse hover on Change Language Settings
+10:02:00.546 INFO  TestNGTestCases -Click on learn more
+10:02:05.949 INFO  TestNGTestCases -Change language to Espanol
+10:02:08.135 INFO  TestNGTestCases -Enter the search Text
+10:02:12.082 INFO  TestNGTestCases -Click on Search button
+10:02:18.114 INFO  TestNGTestCases -Mouse hover on language settings
+10:02:23.902 INFO  TestNGTestCases -Change language to English
+10:02:29.992 INFO  TestNGTestCases -Scroll nextPage element into view using javascript Executor Interface
+10:02:32.295 INFO  TestNGTestCases -Click on next Page
+10:02:34.419 INFO  TestNGTestCases -Click on Product
+10:02:38.859 INFO  TestNGTestCases -Terminating the window

@@ -1,0 +1,32 @@
+16:36:38.335 INFO  TestNGTestCases -Launching Amazon.com using javascript Executor Interface
+16:36:38.809 INFO  TestNGTestCases -Maximize window
+16:36:43.435 INFO  TestNGTestCases -Mouse hover on Change Language Settings
+16:36:50.930 INFO  TestNGTestCases -Click on learn more
+16:36:55.459 INFO  TestNGTestCases -Change language to Espanol
+16:36:57.622 INFO  TestNGTestCases -Enter the search Text
+16:37:01.310 INFO  TestNGTestCases -Click on Search button
+16:37:07.338 INFO  TestNGTestCases -Mouse hover on language settings
+16:37:13.336 INFO  TestNGTestCases -Change language to English
+16:37:19.431 INFO  TestNGTestCases -Scroll nextPage element into view using javascript Executor Interface
+16:37:21.688 INFO  TestNGTestCases -Click on next Page
+16:37:26.957 INFO  TestNGTestCases -Click on Product
+16:37:29.318 INFO  TestNGTestCases -Change Quantity to 3
+16:37:32.431 INFO  TestNGTestCases -Click on Add to Cart Button
+16:37:34.953 INFO  TestNGTestCases -Click on Proceed to Check Out button
+16:37:41.844 INFO  TestNGTestCases -Terminating the window
+18:40:48.208 INFO  TestNGTestCases -Launching Amazon.com using javascript Executor Interface
+18:40:48.659 INFO  TestNGTestCases -Maximize window
+18:40:53.070 INFO  TestNGTestCases -Mouse hover on Change Language Settings
+18:41:00.527 INFO  TestNGTestCases -Click on learn more
+18:41:05.261 INFO  TestNGTestCases -Change language to Espanol
+18:41:07.431 INFO  TestNGTestCases -Enter the search Text
+18:41:11.312 INFO  TestNGTestCases -Click on Search button
+18:41:17.337 INFO  TestNGTestCases -Mouse hover on language settings
+18:41:23.131 INFO  TestNGTestCases -Change language to English
+18:41:29.223 INFO  TestNGTestCases -Scroll nextPage element into view using javascript Executor Interface
+18:41:31.496 INFO  TestNGTestCases -Click on next Page
+18:41:37.100 INFO  TestNGTestCases -Click on Product
+18:41:39.457 INFO  TestNGTestCases -Change Quantity to 3
+18:41:42.400 INFO  TestNGTestCases -Click on Add to Cart Button
+18:41:45.180 INFO  TestNGTestCases -Click on Proceed to Check Out button
+18:41:52.336 INFO  TestNGTestCases -Terminating the window

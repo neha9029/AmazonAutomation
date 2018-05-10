@@ -1,0 +1,49 @@
+16:45:26.350 INFO  TestNGTestCases -Enter the search Text
+16:45:28.516 INFO  TestNGTestCases -Click on Search button
+16:45:34.608 INFO  TestNGTestCases -Scroll nextPage element into view
+16:45:36.889 INFO  TestNGTestCases -Click on next Page
+16:45:37.085 INFO  TestNGTestCases -Click on Product
+16:46:34.603 INFO  TestNGTestCases -Enter the search Text
+16:46:37.473 INFO  TestNGTestCases -Click on Search button
+16:46:43.566 INFO  TestNGTestCases -Scroll nextPage element into view
+16:46:45.851 INFO  TestNGTestCases -Click on next Page
+16:46:49.082 INFO  TestNGTestCases -Click on Product
+16:46:59.031 INFO  TestNGTestCases -Mouse over on Signin on Main Page
+16:46:59.031 INFO  TestNGTestCases -Mouse over on Signin button in dropdown
+16:48:24.399 INFO  TestNGTestCases -Enter the search Text
+16:48:26.612 INFO  TestNGTestCases -Click on Search button
+16:48:32.666 INFO  TestNGTestCases -Scroll nextPage element into view
+16:48:34.924 INFO  TestNGTestCases -Click on next Page
+16:48:35.097 INFO  TestNGTestCases -Click on Product
+16:50:28.168 INFO  TestNGTestCases -Enter the search Text
+16:50:30.805 INFO  TestNGTestCases -Click on Search button
+16:50:36.890 INFO  TestNGTestCases -Scroll nextPage element into view
+16:50:39.145 INFO  TestNGTestCases -Click on next Page
+16:50:43.630 INFO  TestNGTestCases -Click on Product
+16:55:04.007 INFO  TestNGTestCases -Enter the search Text
+16:55:06.506 INFO  TestNGTestCases -Click on Search button
+16:55:12.595 INFO  TestNGTestCases -Scroll nextPage element into view
+16:55:14.873 INFO  TestNGTestCases -Click on next Page
+16:55:19.136 INFO  TestNGTestCases -Click on Product
+16:57:21.236 INFO  TestNGTestCases -Enter the search Text
+16:57:24.230 INFO  TestNGTestCases -Click on Search button
+16:57:30.320 INFO  TestNGTestCases -Scroll nextPage element into view
+16:57:32.587 INFO  TestNGTestCases -Click on next Page
+16:57:32.728 INFO  TestNGTestCases -Click on Product
+16:58:32.551 INFO  TestNGTestCases -Enter the search Text
+16:58:35.299 INFO  TestNGTestCases -Click on Search button
+16:58:41.385 INFO  TestNGTestCases -Scroll nextPage element into view
+16:58:43.672 INFO  TestNGTestCases -Click on next Page
+16:58:45.792 INFO  TestNGTestCases -Click on Product
+16:59:59.409 INFO  TestNGTestCases -Enter the search Text
+17:00:01.733 INFO  TestNGTestCases -Click on Search button
+17:00:07.817 INFO  TestNGTestCases -Scroll nextPage element into view
+17:00:10.134 INFO  TestNGTestCases -Click on next Page
+17:00:15.313 INFO  TestNGTestCases -Click on Product
+17:03:45.785 INFO  TestNGTestCases -Enter the search Text
+17:03:47.991 INFO  TestNGTestCases -Click on Search button
+17:03:54.081 INFO  TestNGTestCases -Scroll nextPage element into view
+17:03:56.369 INFO  TestNGTestCases -Click on next Page
+17:04:02.106 INFO  TestNGTestCases -Click on Product
+17:04:12.123 INFO  TestNGTestCases -Mouse over on Signin on Main Page
+17:04:12.124 INFO  TestNGTestCases -Mouse over on Signin button in dropdown

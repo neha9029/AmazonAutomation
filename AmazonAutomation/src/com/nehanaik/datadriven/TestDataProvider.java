@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 public class TestDataProvider {
 	
 	public static WebDriver driver;
+	
 	@DataProvider(name = "loginData")
 	public Object[][] dataProvider(){
 		Object[][] testFeed = ExcelSheet.getTestData("Invalid_Login");
